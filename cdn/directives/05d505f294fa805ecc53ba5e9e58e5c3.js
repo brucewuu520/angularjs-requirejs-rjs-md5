@@ -1,0 +1,1 @@
+define(["../38567eb382135a6352676a9c9986bf43"],function(n){n.directive("indexDes",function(){return{link:function(n,e){e[0].textContent=n.des}}})});

@@ -1,1 +1,0 @@
-define(["../9cd8782367351b6755ae4f68e4010622"],function(o){o.controller("LoginController",["$scope","$state","UserLogin",function(o,n,a){o.formData={username:"",password:""},o.login=function(){a.login(o.formData)["catch"](function(){alert("用户名或密码错误"),o.formData.password=""})}}])});
